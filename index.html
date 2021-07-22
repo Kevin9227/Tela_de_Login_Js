@@ -12,21 +12,27 @@
     <header>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contact</a></li>
                 <li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
             </ul>
         </nav>
     </header>
     <!-- <div class="tela"> -->
-        <h2>tela de login</h2>
+        <div class="corpo">
+            <div class="conteudo">
+                <h2>HENDASOFT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus velit tempora nobis. Esse expedita aspernatur delectus illum! Placeat perferendis deserunt velit qui architecto ipsam voluptatem maxime perspiciatis iusto eligendi?</p>
+            </div>
+            
+        </div>
 
         <div class="modal" id="id01">
             <form action="/action_page.php" class="modal-content animate" method="post" >
                 <div class="imgcontainer">
                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Fechar Janela">&times;</span>
-                    <i  class="fa fa-user-plus"></i>
+                    <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" alt="" width="100">
                     
                 </div>
                 <div class="container">
@@ -42,13 +48,15 @@
                     </label>
                 </div>
 
-                <div class="container" style="background-color: #069;">
+                <div class="container" style="background-color: rgb(77, 186, 240);">
                     <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
                     <span class="psw">Teste<a href="#"Password?></a>  </span>
                 </div>
             </form>
         </div>
     <!-- </div> -->
+
+    
     <script>
         var modal = document.getElementById('id01');
         window.onclick = function(event){

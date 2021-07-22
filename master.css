@@ -1,10 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+  scroll-snap-type: none;
+}
+
 header{
     width: auto;
-    height: 100px;
+    height: 80px;
     background-color: rgb(68, 211, 236);
 }
 nav {
@@ -79,6 +84,7 @@ li button {
     text-align: center;
     margin: 24px 0 12px 0;
     position: relative;
+    
   }
   
   img.avatar {
@@ -116,7 +122,7 @@ li button {
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
   }
   
   /* The Close Button (x) */
@@ -161,3 +167,24 @@ li button {
        width: 100%;
     }
   }  
+  .corpo{
+    width: auto;
+    height:100vh;
+    background:url('https://cdn.wallpapersafari.com/93/93/DGnpfl.jpg')  ;
+   background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .conteudo{
+    width: 750px;
+    background:rgba(0, 0, 0, 0.178);
+    height: auto;
+    color: #fff;
+    text-align: center;
+  }
+  .conteudo h2{
+    padding: 20px;
+  }
